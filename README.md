@@ -11,13 +11,15 @@ The program takes a plaintext password (`mySecret123`) and hashes it using bcryp
 Make sure you have Go installed (version 1.20 or later recommended).
 
 1. Clone the repository:
+   ```
    git clone https://github.com/ghadeer-elsalhawy/antrea-Renovate-lfx.git
    cd antrea-Renovate-lfx
-
-text
-
-2. Run the program:
+   ```
+   
+3. Run the program:
+   ```
    go run main.go
+   ```
 
 You should see the hashed password output in your terminal.
 
