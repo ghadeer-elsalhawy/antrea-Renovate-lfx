@@ -1,16 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
+  vulnerabilityAlerts: {
+    enabled: true,
+  },
   "packageRules": [
     {
       "managers": ["gomod"],
-      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchUpdateTypes": ["major", "minor"],
       "enabled": false
     },
-    {
-      "managers": ["gomod"],
-      "vulnerabilityAlertsOnly": true,
-      "enabled": true
-    }
   ]
 }
