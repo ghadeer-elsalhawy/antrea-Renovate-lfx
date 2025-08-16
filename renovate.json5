@@ -5,6 +5,7 @@
   vulnerabilityAlerts: {
     enabled: true,
   },
+  "recreateWhen": "always",
   "packageRules": [
     {
       "managers": ["gomod"],
